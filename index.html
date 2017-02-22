@@ -3,26 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>lab 14 SPA with two views</title>
-    <script src="angular.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js" charset="utf-8"></script>
-    <script src="lab14controllera.js"</script>
     <script src="lab14.js"</script>
-
+    <script src="lab14controllera.js"</script>
       <style>
-      body{text:red;
+      body
+      {text:red;
       background-color:lightblue;
-      font-size: 55px;
-    }
-
+      font-size: 55px;}
       </style>
-
   </head>
 
-  <body>
-    <h1> My Page </h1>
-
-  <ng-app="Module">
+  <body ng-app="Module">
+    <h3> My Page </h3>
 
     <nav>
       <a href="#/dog">Doggo</a>
@@ -32,7 +26,8 @@
     </nav>
 
     <ng-view>      </ng-view>
+
 <footer> created by Jennifer Bonapace<br>
-February22.2017  </footer>
+February 22.2017  </footer>
   </body>
 </html>
