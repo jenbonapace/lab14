@@ -16,6 +16,10 @@ app.config(function($routeProvider, $locationProvider){
   controller: "lab14controllera",
   templateUrl: "horse.html"
 })
+.when("/whale", {
+  controller: "lab14controllera",
+  templateUrl: "whale.html"
+})
 .otherwise({redirectTo:"indexlab14.html"});
 $locationProvider.hashPrefix('');
 });
